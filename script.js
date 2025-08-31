@@ -51,3 +51,12 @@
         var url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensaje);
         window.open(url, "_blank");
       }
+       function eviarMensaje6() {
+        var nombre = document.getElementById("Nombre").value;
+        var nombre1 = nombre;
+        var numero = "5491153194250"; 
+        var mensaje = "Hola, quiero un te´ porfavor a nombre de: " + nombre1; 
+        var url = "https://wa.me/" + numero + "?text=" + encodeURIComponent(mensaje);
+        window.open(url, "_blank");
+
+      }
